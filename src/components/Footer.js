@@ -9,19 +9,19 @@ export default function Footer() {
   return (
 <AppBar position='static' color='primary' className='footer'>
       <Toolbar>
-        <IconButton color='inherit'>
+        <IconButton sx={{color:'black'}}>
           <CopyrightIcon/>
         </IconButton>
         <Typography variant='h6'  id='copyright'>
            Copyright 2022 Transylvania Codecamp
         </Typography>
-        <IconButton color='inherit' href='https://www.facebook.com'>
+        <IconButton sx={{color:'black'}} href='https://www.facebook.com'>
           <FacebookIcon/>
         </IconButton>
-        <IconButton color='inherit' href='https://www.instagram.com'>
+        <IconButton sx={{color:'black'}} href='https://www.instagram.com'>
           <InstagramIcon/>
         </IconButton>
-        <IconButton color='inherit' href='https://www.google.com'>
+        <IconButton sx={{color:'black'}} href='https://www.google.com'>
           <ShareIcon/>
         </IconButton>
       </Toolbar>

@@ -1,11 +1,11 @@
 body {
     margin: 0px;
-    background-color: rgb(252, 248, 248);
-
+    background-image: url("./components/nasa-1lfI7wkGWZ4-unsplash.jpg");
+    background-size: cover;
 }
 
 hr{
-  border: 4px solid rgb(24, 108, 204);
+  border: 4px solid #E9D058;
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
@@ -19,7 +19,11 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-image: linear-gradient(90deg, #c7deee 0%, #e3e7e9 100%);
+
+    background-color: #80675A;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
   }
 
@@ -27,16 +31,16 @@ html {
   /* Handle */
   ::-webkit-scrollbar-thumb {
     
-    
-    background-image: linear-gradient(to top, #30576b, #216670, #229791, #126b75, #04365e);
-    border-radius: 25px;
+    background-color: #EAD46B;
+  
+    opacity: 0.62;
+   
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(to top, #329df5, #1fe0d0, #4ca2f8, rgb(110, 247, 217), #21a185 );
-    border-radius: 25px;
-    
+    background-color: #EA936C;
+
   }
 
 
@@ -66,7 +70,7 @@ html {
     
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background-image: linear-gradient(90deg, #7913b4 0%, #2e0b70 100%);
+      background-color: #EA936C;
       border-radius: 25px;
       
     }

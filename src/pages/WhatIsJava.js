@@ -14,14 +14,14 @@ export default function WhatIsJava() {
 
     
             
-    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'rgb(24, 108, 204)'}}>
+    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'#AD7F6E'}}>
       Java Introduction☕
     </Typography>
 
         <Grid container spacing={2} p={2} my={10}>
             <Grid item xs={12} sm={12} md={6} lg={4}>
 
-            <Card className='theCard'>
+            <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
             image='https://media3.giphy.com/media/fwbZnTftCXVocKzfxR/200.webp?cid=ecf05e475l50emwlnh7nk9g0uzmo42w0phb71w94d4wfmb6m&rid=200.webp&ct=g'
@@ -41,7 +41,7 @@ export default function WhatIsJava() {
             </Grid>
          
             <Grid item xs={12} sm={12} md={6} lg={4}>
-          <Card className='theCard'>
+          <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
             image='https://media0.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif'
@@ -64,7 +64,7 @@ export default function WhatIsJava() {
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} lg={4}>
-          <Card className='theCard' >
+          <Card className='theCard' sx={{ border: 1 }} >
           <CardMedia
             component='img'
             image='https://media0.giphy.com/media/h408T6Y5GfmXBKW62l/200.webp?cid=ecf05e47z8x89zcfkyelxl8voqwdx45id2w4y25qaufxfccf&rid=200.webp&ct=g'

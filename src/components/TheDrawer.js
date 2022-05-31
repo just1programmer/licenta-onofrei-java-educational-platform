@@ -19,7 +19,7 @@ export default function TheDrawer() {
         <Link href={listItem.page} underline='none' >
         <ListItemButton href='/about'>
             <ListItem disablePadding  >
-          <Typography variant='h6' sx={{color:'#059AF0',fontFamily:'monospace'}}  >
+          <Typography variant='h6' sx={{color:'#BE856E',fontFamily:'monospace'}}  >
             {listItem.title}
           </Typography>
         </ListItem>
@@ -34,13 +34,13 @@ export default function TheDrawer() {
 
   return (
     <React.Fragment>
-      <IconButton size='large' edge='start' color='inherit' aria-label='logo' onClick={()=>{setIsDrawerOpen(true)}}>
+      <IconButton size='large' edge='start' sx={{color:'black'}} aria-label='logo' onClick={()=>{setIsDrawerOpen(true)}}>
         <MenuIcon/>
       </IconButton>
     <Drawer anchor='left'  open={isDrawerOpen} onClose={()=>setIsDrawerOpen(false)}>
           <Box p={2} className='drawerBox'  textAlign='center' role='presentation'>
-              <Typography variant='h4' sx={{textDecoration:'none' , fontFamily:'Impact'}}>
-                 Topics Box
+              <Typography variant='h4' sx={{textDecoration:'underline' , fontFamily:'Impact' }}>
+                 Java Topics
               </Typography>
               <Divider/>
               <List>
