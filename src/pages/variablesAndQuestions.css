@@ -126,7 +126,7 @@ Variables
     max-width: var(--max-width);
   }
   
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 600px) {
     .section {
       width: 80vw;
     }
@@ -149,8 +149,8 @@ Variables
   .container {
     width: 80vw;
     margin: 5rem auto;
-    background-color: #0b476f;
-    background-image: linear-gradient(90deg, #1fa7b9 0%, #2a5be2 100%);
+    background-color: #30a5f3;
+    background-image: linear-gradient(90deg, #0b476f 0%, #46a6e3 100%);
     border-radius: var(--radius);
     padding: 2.5rem 2rem;
     box-shadow: var(--dark-shadow);
@@ -164,17 +164,11 @@ Variables
     color: rgb(255, 255, 255);
    
   }
-  @media screen and (min-width: 992px) {
-    .container {
-      display: grid;
-      grid-template-columns: 250px 1fr;
-    }
-  }
   .question {
     padding: 1rem 1.5rem;
     border: 2px solid black;
     background-color: #0b476f;
-    background-image: linear-gradient(90deg, #017dc5 0%, #38a8f377 100%);
+    background-image: linear-gradient(90deg, #0b86ba 0%, #34056677 100%);
     margin-bottom: 1rem;
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
@@ -215,4 +209,63 @@ Variables
     align-self: center;
     min-width: 2rem;
   }
-  
+  @media screen and (max-width: 600px) {
+    .container {
+        width: 80vw;
+        margin: 5rem auto;
+        background-color: #0b476f;
+        background-image: linear-gradient(90deg, #680a6b 0%, #760540 100%);
+        border-radius: var(--radius);
+        padding: 2.5rem 2rem;
+        box-shadow: var(--dark-shadow);
+        max-width: var(--fixed-width);
+        display: grid;
+        gap: 1rem 2rem;
+      
+    }
+  .question {
+    padding: 1rem 1.5rem;
+    border: 2px solid black;
+    background-color: #0b476f;
+    background-image: linear-gradient(90deg, #69189c 0%, #34056677 100%);
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+    color: rgb(255, 255, 255);
+  }
+  .question h4 {
+    text-transform: none;
+    line-height: 1.5;
+  }
+  .question p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-family: 'arial';
+    margin-top: 0.5rem;
+
+  }
+  .question header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .question header h4 {
+    margin-bottom: 0;
+  }
+  .btn {
+    
+    border-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    margin-left: 1rem;
+    align-self: center;
+    min-width: 2rem;
+  }
+}
