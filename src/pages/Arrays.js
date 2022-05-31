@@ -1,16 +1,28 @@
 import React from 'react'
+import { useState } from 'react';
 import {Stack,Paper, Typography,IconButton,Card,CardMedia,CardContent,Divider,Grid} from '@mui/material'
 import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
 import { Box } from '@mui/system';
 import './CardAndVideo.css'
+import './pages_styling.css'
 import ReactPlayer from 'react-player';
+
+import SingleQuestion from './accordionQuestions/singleQuestion';
+
+import data from './accordionQuestions/arraysQuestions'
+
+
 export default function Arrays() {
+
+
+  const [arraysQuestions,setQuestions]=useState(data)
+
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
 
    
 
-<Paper elevation={4} sx={{minHeight:'60vh',maxWidth:'90vw',padding:'3vw'}}>
+<Paper elevation={4} sx={{minHeight:'60vh',maxWidth:'90vw',padding:'3vw' ,backgroundColor:'rgba(255,255,255,0.93)'}}>
 
     
          
@@ -24,7 +36,7 @@ export default function Arrays() {
             <Card className='theCard'>
             <CardMedia
             component='img'
-            image='https://media3.giphy.com/media/fwbZnTftCXVocKzfxR/200.webp?cid=ecf05e475l50emwlnh7nk9g0uzmo42w0phb71w94d4wfmb6m&rid=200.webp&ct=g'
+            image='https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2015/05/Arrays.png'
             />
             <CardContent>
 
@@ -32,9 +44,8 @@ export default function Arrays() {
               Array ☕
               </Typography>
               <Divider/>
-            <Typography variant="body2" color="initial" className='details'>
-        <b>Arrays are ........ high-level, class-based, object-oriented programming language </b>  that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers <b>'write once, run anywhere'</b>. 
-
+            <Typography variant="body2" py={2} color="initial" className='details'>
+        <b>An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed. </b> 
         </Typography>
             </CardContent>
           </Card>
@@ -44,18 +55,18 @@ export default function Arrays() {
           <Card className='theCard'>
           <CardMedia
             component='img'
-            image='https://media0.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif'
-            height='250'
+            image='https://qph.cf2.quoracdn.net/main-qimg-8b306b4c6d47bbafe378924ab42d24ba.webp'
+            height='150'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              Compilation 😓
+              Array importance in interviews
               </Typography>
               <Divider/>
-            <Typography variant="body2" color="initial" className='details' >
-           <b>Compiled Java code can run on all platforms that support Java without the need to recompile. </b> 
+            <Typography variant="body2" color="initial" className='details' py={2}>
+           <b>The array is one of the most important topics for programming interviews.  </b> 
 
-            Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
+           It doesn't matter if you are going to Google, Microsoft, Amazon or investment banks like Goldman Sachs, Barclays, Citi or even service-based companies like IBM, Accenture, TCS, or Infosys, if you are going to interview for the developer position, you must prepare array very well.
 
         </Typography>
             </CardContent>
@@ -67,19 +78,19 @@ export default function Arrays() {
           <Card className='theCard' >
           <CardMedia
             component='img'
-            image='https://media0.giphy.com/media/h408T6Y5GfmXBKW62l/200.webp?cid=ecf05e47z8x89zcfkyelxl8voqwdx45id2w4y25qaufxfccf&rid=200.webp&ct=g'
-            height='250'
+            image='https://cdn.educba.com/academy/wp-content/uploads/2019/11/Types-of-Array-in-Java.png'
+            height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Popularity❤️‍🔥 
+              Array Types 
               </Typography>
               <Divider/>
-            <Typography variant="body2" color="initial"  className='details'>
-            <b>As of 2019, Java was one of the most popular programming languages in use according to GitHub</b>, particularly for client–server web applications, with a reported 9 million developers.
+            <Typography py={2} variant="body2" color="initial"  className='details'>
+            <b>Single dimensional array − A single dimensional array of Java is a normal array where, the array contains sequential elements.</b>
 
-            The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them.
-
+            <br/>
+           <b> Multi-dimensional array </b> − A multi-dimensional array in Java is an array of arrays. A two dimensional array is an array of one dimensional arrays and a three dimensional array is an array of two dimensional arrays.
         </Typography>
             </CardContent>
           </Card>
@@ -99,6 +110,19 @@ url='https://www.youtube.com/watch?v=xzjZy-dHHLw&ab_channel=AlexLee'
 controls={true}
 />
         
+
+<Typography variant='h5' textAlign='center'>🔽 Here are some frequently asked questions about Java Variables 🔽</Typography>
+
+          <div className='container'>
+        <Typography variant='h3'>Q&A about Java Arrays</Typography>
+        <section className='info'>
+          {arraysQuestions.map((question)=>{
+            return(
+              <SingleQuestion key={question.id} {...question}/>
+            )
+          })}
+        </section>
+      </div>        
 </Paper>
 </Stack>
   )

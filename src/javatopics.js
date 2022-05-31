@@ -12,7 +12,7 @@ const theTopics=[{
     page:'/arrays',
 },
 {
-    title:' Java Methods',
+    title:' Java Methods ',
     page:'/methods',
 },
 {

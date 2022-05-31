@@ -3,9 +3,9 @@ import {Stack,Paper, Typography,IconButton,Card,CardMedia,CardContent,Divider,Gr
 import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
 import { Box } from '@mui/system';
 import './CardAndVideo.css'
-import './variablesAndQuestions.css'
+import './pages_styling.css'
 import ReactPlayer from 'react-player';
-import SingleQuestion from './accordionQuestions/variablesQuestion';
+import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/variablesQuestions'
 import questions from './accordionQuestions/commentsQuestions'

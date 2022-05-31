@@ -22,7 +22,7 @@ const Question = ({title,info,image}) => {
         {showInfo?<AiOutlineMinus fontSize={20}/>:<AiOutlinePlus fontSize={20}/>}
       </button>
       </header>  
-      {showInfo &&<Typography variant='subtitle1'>{info}</Typography>}
+      {showInfo &&<Typography py={2} variant='subtitle1'>{info}</Typography>}
       {showInfo && <img src={image} width='100%'/>}  
     </article>
 

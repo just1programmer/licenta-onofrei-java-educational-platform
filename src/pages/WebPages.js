@@ -43,7 +43,7 @@ const WebPages = () => {
     return(
         <Router>
             <Routes>
-                <Route exact path="/" element= {<Hello/>} />
+                <Route exact path="/" element= {<WhatIsJava/>} />
                 <Route path = "/what-is-java"  element= {<WhatIsJava/>} />
                 <Route path = "/variables-and-comments" element = {<VariablesAndComments/>} />
                 <Route path = "/arrays" element = {<Arrays/>} />
