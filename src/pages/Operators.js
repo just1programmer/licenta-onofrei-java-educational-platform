@@ -26,7 +26,7 @@ export default function Arrays() {
 
     
          
-    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'rgb(24, 108, 204)'}}>
+    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'#eaa169'}}>
       Java Operators
     </Typography>
 

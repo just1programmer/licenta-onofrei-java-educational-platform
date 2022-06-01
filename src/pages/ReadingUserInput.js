@@ -26,7 +26,7 @@ export default function Arrays() {
 
     
          
-    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'rgb(24, 108, 204)'}}>
+    <Typography variant='h2' id='title' sx={{textDecoration:'underline', textUnderlinePosition:'under',textDecorationColor:'#eaa169'}}>
       Reading user Input
     </Typography>
 
@@ -55,12 +55,12 @@ export default function Arrays() {
           <Card className='theCard'>
           <CardMedia
             component='img'
-            image='https://qph.cf2.quoracdn.net/main-qimg-8b306b4c6d47bbafe378924ab42d24ba.webp'
-            height='150'
+            image='https://cdn.educba.com/academy/wp-content/uploads/2020/05/template-33.jpg'
+            height='350'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              Array importance in interviews
+              Scanner Class
               </Typography>
               <Divider/>
             <Typography variant="body2" color="initial" className='details' py={2}>
@@ -75,19 +75,16 @@ export default function Arrays() {
           <Card className='theCard' >
           <CardMedia
             component='img'
-            image='https://cdn.educba.com/academy/wp-content/uploads/2019/11/Types-of-Array-in-Java.png'
+            image='https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/02/Java-Scanner-Class.png'
             height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Array Types 
+              Scanner Class
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial"  className='details'>
-            <b>Single dimensional array − A single dimensional array of Java is a normal array where, the array contains sequential elements.</b>
-
-            <br/>
-           <b> Multi-dimensional array </b> − A multi-dimensional array in Java is an array of arrays. A two dimensional array is an array of one dimensional arrays and a three dimensional array is an array of two dimensional arrays.
+            So the Scanner class is used to read input of in-built data types like int, double, float, strings, etc. from the user, and this class belongs to the java.util package. Scanner class breaks the input into tokens/parts using a delimiter a sequence of one or more characters that is used to separate independent values which is by default whitespace. It is the easiest way to take input in Java.
         </Typography>
             </CardContent>
           </Card>
@@ -95,7 +92,7 @@ export default function Arrays() {
        
           </Grid>
        
-          <Typography variant='h5' textAlign='center'>🔽 Down below , you can find a short video about what Java Arrays are and how they can be used 🔽</Typography>
+          <Typography variant='h5' textAlign='center'>🔽 Down below , you can find a short video about what Reading input in Java 🔽</Typography>
 
 <hr/>
 
@@ -103,15 +100,15 @@ export default function Arrays() {
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=xzjZy-dHHLw&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=Wgkb0zg7WOM&ab_channel=AlexLee'
 controls={true}
 />
         
 
-<Typography variant='h5' textAlign='center'>🔽 Here are some frequently asked questions about Java Variables 🔽</Typography>
+<Typography variant='h5' textAlign='center' my={7}>🔽 Here are some frequently asked questions about <b> Scanner Class </b>🔽</Typography>
 
           <div className='container'>
-        <Typography variant='h3'>Q&A about Java Arrays</Typography>
+        <Typography variant='h3'>Q&A about Java Input</Typography>
         <section className='info'>
           {arraysQuestions.map((question)=>{
             return(
