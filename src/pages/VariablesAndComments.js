@@ -118,7 +118,7 @@ export default function VariablesAndComments() {
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=DbVR0OG3J54&ab_channel=TutorialsPoint%28India%29Ltd.'
+url='https://www.youtube.com/watch?v=so1iUWaLmKA&t=96s&ab_channel=BroCode'
 controls={true}
 
 />

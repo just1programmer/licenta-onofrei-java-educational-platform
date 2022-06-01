@@ -18,7 +18,7 @@ export default function Footer() {
         <IconButton sx={{color:'black'}} href='https://www.facebook.com'>
           <FacebookIcon/>
         </IconButton>
-        <IconButton sx={{color:'black'}} href='https://www.instagram.com'>
+        <IconButton sx={{color:'black'}} href='https://www.instagram.com/java.edu.platform/'>
           <InstagramIcon/>
         </IconButton>
         <IconButton sx={{color:'black'}} href='https://www.google.com'>
