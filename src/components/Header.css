@@ -1,6 +1,6 @@
 .theAppBar{
     background-image: url("gradient.png");
-    background-color: #337bac;
+   
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.92;
@@ -17,7 +17,7 @@
     .theAppBar {
         /* background-image: linear-gradient(90deg, #7913b4 0%, #2e0b70 100%); */
         background-image: url("gradient.png");
-        background-color: #337bac;
+      
 
         opacity: 0.92;
        

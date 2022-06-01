@@ -92,7 +92,7 @@ export default function Arrays() {
        
           </Grid>
        
-          <Typography variant='h5' textAlign='center'>🔽 Down below , you can find a short video about what Reading input in Java 🔽</Typography>
+          <Typography variant='h5' textAlign='center'>🔽 Down below , you can find a short video about Reading input in Java 🔽</Typography>
 
 <hr/>
 

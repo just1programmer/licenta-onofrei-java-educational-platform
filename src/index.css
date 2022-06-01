@@ -32,10 +32,12 @@ html {
   ::-webkit-scrollbar-thumb {
     
     background-color: #EAD46B;
-  
-    opacity: 0.62;
+    
+    opacity: 0.92;
    
   }
+
+ 
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
