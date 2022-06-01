@@ -37,7 +37,7 @@ export default function TheDrawer() {
       <IconButton size='large' edge='start' sx={{color:'black'}} aria-label='logo' onClick={()=>{setIsDrawerOpen(true)}}>
         <MenuIcon/>
       </IconButton>
-    <Drawer anchor='left'  open={isDrawerOpen} onClose={()=>setIsDrawerOpen(false)}>
+    <Drawer anchor='left'  open={isDrawerOpen} onClose={()=>setIsDrawerOpen(false)} variant='temporary' transitionDuration={2500,1000}>
           <Box p={2} className='drawerBox'  textAlign='center' role='presentation'>
               <Typography variant='h4' sx={{textDecoration:'underline' , fontFamily:'Impact' }}>
                  Java Topics
