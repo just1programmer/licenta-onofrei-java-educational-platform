@@ -6,6 +6,20 @@
     opacity: 0.92;
 }
 
+
+.scroll-container{
+    position: fixed;
+    top:88px;
+    left: 0%;
+    width: 100%;
+    height: 7px;
+  }
+  
+  .scroll-container .indicator {
+    height: 100%;
+    background:#D98B6B ;
+  }
+
 #brand {
     font-family:'monospace';
     font-size: 2em;
