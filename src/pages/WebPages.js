@@ -17,7 +17,6 @@ import Strings from './Strings';
 import Conditionals from './Conditionals';
 import Loops from './Loops';
 import OOP from './OOP';
-import ClassesAndObjects from './ClassesAndObjects';
 import Interfaces from './Interfaces';
 import Inheritance from './Inheritance';
 import Polymorphism from './Polymorphism';
@@ -38,43 +37,44 @@ import Queues from './Queues';
 import ArrayList from './ArrayList';
 import HashTableHashMap from './HashTableHashMap';
 import UnitTesting from './UnitTestingJUnit';
+import ErrorPage from './ErrorPage';
 
 const WebPages = () => {
     return(
         <Router>
             <Routes>
                 <Route exact path="/" element= {<WhatIsJava/>} />
-                <Route path = "/what-is-java"  element= {<WhatIsJava/>} />
-                <Route path = "/variables-and-comments" element = {<VariablesAndComments/>} />
-                <Route path = "/arrays" element = {<Arrays/>} />
-                <Route path = "/methods" element = {<Methods/>} />
-                <Route path = "/operators" element = {<Operators/>} />
-                <Route path = "/reading-user-input" element = {<ReadingUserInput/>} />
-                <Route path = "/strings"  element= {<Strings/>} />
-                <Route path = "/conditionals" element = {<Conditionals/>} />
-                <Route path = "/loops" element = {<Loops/>} />
-                <Route path = "/object-oriented-programming-basics" element = {<OOP/>} />
-                <Route path = "/classes-and-objects" element = {<ClassesAndObjects/>} />
-                <Route path = "/interfaces" element = {<Interfaces/>} />
-                <Route path = "/inheritance"  element= {<Inheritance/>} />
-                <Route path = "/polymorphism" element = {<Polymorphism/>} />
-                <Route path = "/encapsulation" element = {<Encapsulation/>} />
-                <Route path = "/connecting-to-a-database" element = {<DBConnection/>} />
-                <Route path = "/creating-an-api" element = {<CreatingAnAPI/>} />
-                <Route path = "/vcs-github-git" element = {<Vcs/>} />
-                <Route path = "/git-remote-repos"  element= {<GitRemoteRepos/>} />
-                <Route path = "/git-branching" element = {<GitBranching/>} />
-                <Route path = "/pull-requests-merge-requests" element = {<PMR/>} />
-                <Route path = "/updating-local-repos" element = {<UpdatingLocalRepos/>} />
-                <Route path = "/merge-conflicts" element = {<MergeConflicts/>} />
-                <Route path = "/exception-handling-in-java" element = {<Exceptions/>} />
-                <Route path="/java-collections-overview" element={<Collections/>}/>
-                <Route path = "/list"  element= {<Lists/>} />
-                <Route path = "/set" element = {<Sets/>} />
-                <Route path = "/queue" element = {<Queues/>} />
-                <Route path = "/array-list" element = {<ArrayList/>} />
-                <Route path = "/hash-table-hash-map" element = {<HashTableHashMap/>} />
-                <Route path = "/unit-testing-junit" element = {<UnitTesting/>} />
+                <Route exact path = "/what-is-java"  element= {<WhatIsJava/>} />
+                <Route  exact path = "/variables-and-comments" element = {<VariablesAndComments/>} />
+                <Route  exact path = "/arrays" element = {<Arrays/>} />
+                <Route  exact path = "/methods" element = {<Methods/>} />
+                <Route  exact path = "/operators" element = {<Operators/>} />
+                <Route  exact path = "/reading-user-input" element = {<ReadingUserInput/>} />
+                <Route  exact path = "/strings"  element= {<Strings/>} />
+                <Route  exact path = "/conditionals" element = {<Conditionals/>} />
+                <Route exact  path = "/loops" element = {<Loops/>} />
+                <Route  exact path = "/object-oriented-programming-basics" element = {<OOP/>} />
+                <Route  exact path = "/interfaces" element = {<Interfaces/>} />
+                <Route  exact path = "/inheritance"  element= {<Inheritance/>} />
+                <Route  exact path = "/polymorphism" element = {<Polymorphism/>} />
+                <Route  exact path = "/encapsulation" element = {<Encapsulation/>} />
+                <Route  exact path = "/connecting-to-a-database" element = {<DBConnection/>} />
+                <Route  exact path = "/creating-an-api" element = {<CreatingAnAPI/>} />
+                <Route exact  path = "/vcs-github-git" element = {<Vcs/>} />
+                <Route  exact path = "/git-remote-repos"  element= {<GitRemoteRepos/>} />
+                <Route  exact path = "/git-branching" element = {<GitBranching/>} />
+                <Route  exact path = "/pull-requests-merge-requests" element = {<PMR/>} />
+                <Route  exact path = "/updating-local-repos" element = {<UpdatingLocalRepos/>} />
+                <Route  exact path = "/merge-conflicts" element = {<MergeConflicts/>} />
+                <Route  exact path = "/exception-handling-in-java" element = {<Exceptions/>} />
+                <Route  exact path="/java-collections-overview" element={<Collections/>}/>
+                <Route exact  path = "/list"  element= {<Lists/>} />
+                <Route exact path = "/set" element = {<Sets/>} />
+                <Route exact path = "/queue" element = {<Queues/>} />
+                <Route  exact path = "/array-list" element = {<ArrayList/>} />
+                <Route exact path = "/hash-table-hash-map" element = {<HashTableHashMap/>} />
+                <Route exact path = "/unit-testing-junit" element = {<UnitTesting/>} />
+                <Route path='*' element={<ErrorPage/>}/>
             </Routes>   
         </Router>
     );

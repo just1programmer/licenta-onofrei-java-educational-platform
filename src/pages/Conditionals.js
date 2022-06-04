@@ -7,13 +7,13 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
-import questions from './accordionQuestions/commentsQuestions'
+import data from './accordionQuestions/conditionalQuestions'
+
 console.log(data);
 
 export default function VariablesAndComments() {
-  const [variablesQuestions,setQuestions]=useState(data)
-  const [commentsQuestions,setCommentsQuestions]=useState(questions)
+  const [Questions,setQuestions]=useState(data)
+
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
 
@@ -106,19 +106,19 @@ height='700px'
 url='https://www.youtube.com/watch?v=yvWnj_HfG6s&ab_channel=AlexLee78'
 controls={true}
 />
-
+{/* 
 <Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Conditionals 🔽</Typography>
 
 <div className='container'>
 <Typography variant='h3'>Q&A about Java Conditionals </Typography>
 <section className='info'>
-{variablesQuestions.map((question)=>{
+{Questions.map((question)=>{
   return(
     <SingleQuestion key={question.id} {...question}/>
   )
 })}
 </section>
-</div>
+</div> */}
 </Paper>
 </Stack>
   )

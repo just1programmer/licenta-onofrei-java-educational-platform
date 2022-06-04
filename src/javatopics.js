@@ -39,10 +39,7 @@ const theTopics=[{
     title:'Object-oriented programming Basics',
     page:'/object-oriented-programming-basics',
 },
-{
-    title:'Classes & Objects',
-    page:'/classes-and-objects',
-},
+
 {
     title:'Interfaces',
     page:'/interfaces',

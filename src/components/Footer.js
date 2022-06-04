@@ -4,7 +4,7 @@ import {AppBar,Toolbar,IconButton,Typography} from '@mui/material'
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import ShareIcon from '@mui/icons-material/Share';
+
 export default function Footer() {
   return (
 <AppBar position='static' color='primary' className='footer'>
@@ -18,11 +18,8 @@ export default function Footer() {
         <IconButton sx={{color:'black'}} href='https://www.facebook.com'>
           <FacebookIcon/>
         </IconButton>
-        <IconButton sx={{color:'black'}} href='https://www.instagram.com/java.edu.platform/'>
+        <IconButton sx={{color:'black', marginRight:'2vw'}} href='https://www.instagram.com/java.edu.platform/'>
           <InstagramIcon/>
-        </IconButton>
-        <IconButton sx={{color:'black'}} href='https://www.google.com'>
-          <ShareIcon/>
         </IconButton>
       </Toolbar>
     </AppBar>

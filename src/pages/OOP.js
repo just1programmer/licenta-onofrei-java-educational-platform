@@ -7,13 +7,13 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
-import questions from './accordionQuestions/commentsQuestions'
+import data from './accordionQuestions/oopQuestions'
+
 console.log(data);
 
 export default function VariablesAndComments() {
-  const [variablesQuestions,setQuestions]=useState(data)
-  const [commentsQuestions,setCommentsQuestions]=useState(questions)
+  const [Questions,setQuestions]=useState(data)
+
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
 
@@ -33,16 +33,18 @@ export default function VariablesAndComments() {
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190717114649/Object-Oriented-Programming-Concepts.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java OOP🤔
               </Typography>
               <Divider/>
-            <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
+            <Typography py={2} px={1} variant="body2" color="initial" className='details'>
+            OOP stands for Object-Oriented Programming.
+<hr/>
+Procedural programming is about writing procedures or methods that perform operations on the data, while object-oriented programming is about creating objects that contain both data and methods.
 
         </Typography>
             </CardContent>
@@ -53,17 +55,30 @@ export default function VariablesAndComments() {
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://www.guru99.com/images/java/052016_0704_ObjectsandC6.jpg'
+            height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+             Java OOP Advantages
               </Typography>
               <Divider/>
-            <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
-
+            <Typography  py={2} variant="body2" px={2} color="initial" className='details' >
+          
+            <br/>
+Object-oriented programming has several advantages over procedural programming:
+<hr/>
+<br/>
+<b><ol>
+  <li>OOP is faster and easier to execute </li>
+  <li>OOP provides a clear structure for the programs
+ </li>
+  <li>OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+ </li>
+  <li> OOP makes it possible to create full reusable applications with less code and shorter development time
+</li>
+</ol>
+</b>
             
 
         </Typography>
@@ -76,17 +91,22 @@ export default function VariablesAndComments() {
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://cdn.ttgtmedia.com/rms/onlineimages/whatis-object_oriented_programming_half_column_mobile.png'
+            height='400'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Java Classes and Objects❤️‍🔥 
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Classes and objects are the two main aspects of object-oriented programming.
+            <br/>
+            A class is a template for objects. 
+            <hr/>
+            An object is an instance of a class.
+
+When the individual objects are created, they inherit all the variables and methods from the class.
   
         </Typography>
             </CardContent>
@@ -112,7 +132,7 @@ controls={true}
 <div className='container'>
 <Typography variant='h3'>Q&A about Java OOP Basics </Typography>
 <section className='info'>
-{variablesQuestions.map((question)=>{
+{Questions.map((question)=>{
   return(
     <SingleQuestion key={question.id} {...question}/>
   )
