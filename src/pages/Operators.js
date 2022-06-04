@@ -267,7 +267,7 @@ controls={true}
 
 
 
-<Typography variant='h5' textAlign='center'>🔽 Here are some frequently asked questions about Java Variables 🔽</Typography>
+<Typography variant='h5' textAlign='center'>🔽 Here are some frequently asked questions about Java Operators 🔽</Typography>
 
           <div className='container'>
         <Typography variant='h3'>Q&A about Java Operators</Typography>

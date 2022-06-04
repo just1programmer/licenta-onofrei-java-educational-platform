@@ -9,13 +9,13 @@ import ReactPlayer from 'react-player';
 
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/arraysQuestions'
+import data from './accordionQuestions/readingInputQuestions'
 
 
 export default function Arrays() {
 
 
-  const [arraysQuestions,setQuestions]=useState(data)
+  const [Questions,setQuestions]=useState(data)
 
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
@@ -110,7 +110,7 @@ controls={true}
           <div className='container'>
         <Typography variant='h3'>Q&A about Java Input</Typography>
         <section className='info'>
-          {arraysQuestions.map((question)=>{
+          {Questions.map((question)=>{
             return(
               <SingleQuestion key={question.id} {...question}/>
             )
