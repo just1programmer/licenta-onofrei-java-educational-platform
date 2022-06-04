@@ -13,7 +13,7 @@ export default function Footer() {
           <CopyrightIcon/>
         </IconButton>
         <Typography variant='h6'  id='copyright'>
-           Copyright 2022 Transylvania Codecamp
+           Copyright 2022 Java Educational Platform
         </Typography>
         <IconButton sx={{color:'black'}} href='https://www.facebook.com'>
           <FacebookIcon/>
