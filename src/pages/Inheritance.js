@@ -10,7 +10,7 @@ import SingleQuestion from './accordionQuestions/singleQuestion';
 import data from './accordionQuestions/inheritanceQuestions'
 console.log(data);
 
-export default function VariablesAndComments() {
+export default function Inheritance() {
   const [Questions,setQuestions]=useState(data)
 
   return (

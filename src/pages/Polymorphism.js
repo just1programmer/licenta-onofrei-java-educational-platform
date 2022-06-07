@@ -7,12 +7,11 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
-import questions from './accordionQuestions/commentsQuestions'
+import data from './accordionQuestions/polymorphismQuestions'
 console.log(data);
 
-export default function VariablesAndComments() {
-  const [variablesQuestions,setQuestions]=useState(data)
+export default function Polymorphism() {
+  const [Questions,setQuestions]=useState(data)
 
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
@@ -112,7 +111,7 @@ controls={true}
 <div className='container'>
 <Typography variant='h3'>Q&A about  Java Polymorphism </Typography>
 <section className='info'>
-{variablesQuestions.map((question)=>{
+{Questions.map((question)=>{
   return(
     <SingleQuestion key={question.id} {...question}/>
   )

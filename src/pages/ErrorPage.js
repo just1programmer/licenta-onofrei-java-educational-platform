@@ -3,7 +3,7 @@ import {Stack,Paper} from '@mui/material'
 
 
 
-export default function VariablesAndComments() {
+export default function ErrorPage() {
 
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>

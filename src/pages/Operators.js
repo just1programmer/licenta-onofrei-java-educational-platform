@@ -12,7 +12,7 @@ import SingleQuestion from './accordionQuestions/singleQuestion';
 import data from './accordionQuestions/operatorsQuestions'
 
 
-export default function Arrays() {
+export default function Operators() {
 
 
   const [operatorsQuestions,setQuestions]=useState(data)

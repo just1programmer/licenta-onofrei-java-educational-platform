@@ -11,7 +11,7 @@ import data from './accordionQuestions/methodsQuestions'
 
 console.log(data);
 
-export default function VariablesAndComments() {
+export default function Methods() {
   const [methodsQuestions,setQuestions]=useState(data)
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>

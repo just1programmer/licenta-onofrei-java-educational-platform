@@ -11,7 +11,7 @@ import data from './accordionQuestions/oopQuestions'
 
 console.log(data);
 
-export default function VariablesAndComments() {
+export default function OOP() {
   const [Questions,setQuestions]=useState(data)
 
   return (

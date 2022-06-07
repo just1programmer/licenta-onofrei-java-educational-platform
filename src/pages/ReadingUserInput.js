@@ -12,7 +12,7 @@ import SingleQuestion from './accordionQuestions/singleQuestion';
 import data from './accordionQuestions/readingInputQuestions'
 
 
-export default function Arrays() {
+export default function ReadingUserInput() {
 
 
   const [Questions,setQuestions]=useState(data)

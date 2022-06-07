@@ -11,7 +11,7 @@ import data from './accordionQuestions/stringsQuestions'
 
 console.log(data);
 
-export default function VariablesAndComments() {
+export default function Strings() {
   const [Questions,setQuestions]=useState(data)
  
   return (

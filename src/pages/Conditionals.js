@@ -11,7 +11,7 @@ import data from './accordionQuestions/conditionalQuestions'
 
 console.log(data);
 
-export default function VariablesAndComments() {
+export default function Conditionals() {
   const [Questions,setQuestions]=useState(data)
 
   return (

@@ -11,8 +11,8 @@ import data from './accordionQuestions/variablesQuestions'
 import questions from './accordionQuestions/commentsQuestions'
 console.log(data);
 
-export default function VariablesAndComments() {
-  const [variablesQuestions,setQuestions]=useState(data)
+export default function VCSGithubAndGit() {
+  const [Questions,setQuestions]=useState(data)
 
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
@@ -112,7 +112,7 @@ controls={true}
 <div className='container'>
 <Typography variant='h3'>Q&A about Git and Github </Typography>
 <section className='info'>
-{variablesQuestions.map((question)=>{
+{ Questions.map((question)=>{
   return(
     <SingleQuestion key={question.id} {...question}/>
   )
