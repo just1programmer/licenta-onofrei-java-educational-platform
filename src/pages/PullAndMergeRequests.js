@@ -7,7 +7,7 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
+import data from './accordionQuestions/pullRequestQuestions'
 console.log(data);
 
 export default function PullAndMergeRequests() {

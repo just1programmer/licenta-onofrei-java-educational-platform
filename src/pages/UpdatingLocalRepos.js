@@ -7,8 +7,7 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
-import questions from './accordionQuestions/commentsQuestions'
+import data from './accordionQuestions/updatingLocalRepoQuestions'
 console.log(data);
 
 export default function UpdatingLocalRepos() {
