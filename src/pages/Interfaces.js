@@ -7,12 +7,12 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
-import data from './accordionQuestions/variablesQuestions'
-import questions from './accordionQuestions/commentsQuestions'
+import data from './accordionQuestions/interfacesQuestions'
+
 console.log(data);
 
 export default function VariablesAndComments() {
-  const [variablesQuestions,setQuestions]=useState(data)
+  const [Questions,setQuestions]=useState(data)
 
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
@@ -38,12 +38,11 @@ export default function VariablesAndComments() {
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java Interfaces🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            An interface in Java is a blueprint of a class. It has static constants and abstract methods.
         </Typography>
             </CardContent>
           </Card>
@@ -58,11 +57,11 @@ export default function VariablesAndComments() {
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+             Static constants
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+            Static variable in Java is variable which belongs to the class and initialized only once at the start of the execution. It is a variable which belongs to the class and not to object(instance ). 
 
             
 
@@ -81,12 +80,11 @@ export default function VariablesAndComments() {
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Abstract methods
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            A method without body (no implementation) is known as abstract method. A method must always be declared in an abstract class, or in other words you can say that if a class has an abstract method, it should be declared abstract as well. 
   
         </Typography>
             </CardContent>
@@ -112,7 +110,7 @@ controls={true}
 <div className='container'>
 <Typography variant='h3'>Q&A about  Java Interfaces </Typography>
 <section className='info'>
-{variablesQuestions.map((question)=>{
+{Questions.map((question)=>{
   return(
     <SingleQuestion key={question.id} {...question}/>
   )
