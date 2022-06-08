@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/queuesQuestions'
-console.log(data);
+
 
 export default function Queues() {
   const [Questions,setQuestions]=useState(data)

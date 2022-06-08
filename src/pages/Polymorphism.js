@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/polymorphismQuestions'
-console.log(data);
+
 
 export default function Polymorphism() {
   const [Questions,setQuestions]=useState(data)

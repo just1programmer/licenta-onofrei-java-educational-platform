@@ -9,7 +9,7 @@ import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/stringsQuestions'
 
-console.log(data);
+
 
 export default function Strings() {
   const [Questions,setQuestions]=useState(data)

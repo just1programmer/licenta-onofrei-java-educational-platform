@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/updatingLocalRepoQuestions'
-console.log(data);
+
 
 export default function UpdatingLocalRepos() {
   const [Questions,setQuestions]=useState(data)

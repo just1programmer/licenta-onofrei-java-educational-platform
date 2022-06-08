@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/setsQuestions'
-console.log(data);
+
 
 export default function Sets() {
   const [Questions,setQuestions]=useState(data)

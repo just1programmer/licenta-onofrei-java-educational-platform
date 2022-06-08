@@ -8,7 +8,6 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/javaCollectionsQuestions'
-console.log(data);
 
 export default function JavaCollectionsOverview() {
   const [Questions,setQuestions]=useState(data)

@@ -9,7 +9,6 @@ import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/interfacesQuestions'
 
-console.log(data);
 
 export default function Interfaces() {
   const [Questions,setQuestions]=useState(data)

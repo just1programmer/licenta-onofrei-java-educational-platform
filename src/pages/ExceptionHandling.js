@@ -8,7 +8,6 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/exceptionHandlingQuestions'
-console.log(data);
 
 export default function ExceptionHandling() {
   const [Questions,setQuestions]=useState(data)

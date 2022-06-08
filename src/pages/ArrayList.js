@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/arrayListQuestions'
-console.log(data);
+
 
 export default function ArrayList() {
   const [Questions,setQuestions]=useState(data)

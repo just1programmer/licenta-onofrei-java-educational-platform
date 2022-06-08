@@ -8,7 +8,6 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/mergeConflictsQuestions'
-console.log(data);
 
 export default function MergeConflicts() {
   const [Questions,setQuestions]=useState(data)

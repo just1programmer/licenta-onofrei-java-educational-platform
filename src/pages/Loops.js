@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 import SingleQuestion from './accordionQuestions/singleQuestion';
 
 import data from './accordionQuestions/variablesQuestions'
-console.log(data);
+
 
 export default function Loops() {
   const [Questions,setQuestions]=useState(data)
