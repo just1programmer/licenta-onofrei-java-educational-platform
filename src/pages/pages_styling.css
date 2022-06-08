@@ -149,10 +149,7 @@ Variables
   .container {
     width: 80vw;
     margin: 5rem auto;
-    /* background-color: #30a5f3; */
-    background-image: url("../components/gradient.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #FFC501;
     opacity: 0.92;
     border-radius: var(--radius);
     padding: 2.5rem 2rem;
@@ -170,8 +167,7 @@ Variables
   .question {
     padding: 1rem 1.5rem;
     border: 2px solid black;
-    background-color: #01070b;
-    background-image: linear-gradient(90deg, #181e20 0%, #34056677 100%);
+    background-color: #354F60;
     margin-bottom: 1rem;
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);

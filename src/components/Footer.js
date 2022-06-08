@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 export default function Footer() {
   return (
-<AppBar position='static' color='primary' className='footer'>
+<AppBar position='static' className='footer' sx={{backgroundColor:'#FFC501'}}>
       <Toolbar>
         <IconButton sx={{color:'black'}}>
           <CopyrightIcon/>

@@ -17,7 +17,7 @@ const Question = ({title,info,image}) => {
   return (
     <article className='question'>
       <header>
-      <Typography variant='h6' sx={{textDecoration:"underline",textDecorationColor:'black',textUnderlinePosition:'under'}}>{title}</Typography>
+      <Typography variant='h6' >{title}</Typography>
       <button className='btn' onClick={buttonHandler}>
         {showInfo?<AiOutlineMinus fontSize={20}/>:<AiOutlinePlus fontSize={20}/>}
       </button>

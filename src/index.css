@@ -1,7 +1,6 @@
 body {
     margin: 0px;
-    background-image: url("./components/nasa-1lfI7wkGWZ4-unsplash.jpg");
-    background-size: cover;
+    background-color: #354F60;
 }
 
 hr{
@@ -33,7 +32,7 @@ html {
   /* Handle */
   ::-webkit-scrollbar-thumb {
     
-    background-color: #EAD46B;
+    background-color: #FFC501;
     
     opacity: 0.92;
    

@@ -2,10 +2,7 @@
     position: absolute;
     bottom: 0px;
     height: 10vh;
-    background-image: url("gradient.png");
-    background-color: #337bac;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #FFC501;
     opacity: 0.92;
     margin-top: 2vh;
     
@@ -23,10 +20,7 @@
     .footer {
         position: absolute;
         bottom: 0px;
-        background-color: #337bac;
-        background-image: url("gradient.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-color: #FFC501;
         margin-top: 2vh;
         padding: 1em;
     }

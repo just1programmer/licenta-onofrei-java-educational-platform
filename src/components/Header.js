@@ -10,7 +10,7 @@ export default function Header() {
     <React.Fragment>
 
    
-    <AppBar position='fixed' color='primary' className='theAppBar'>
+    <AppBar position='fixed' sx={{backgroundColor:'#FFC501'}} className='theAppBar'>
       
       <Toolbar>
         <TheDrawer/>
