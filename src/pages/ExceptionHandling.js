@@ -22,7 +22,7 @@ export default function ExceptionHandling() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Exception Handling
+Exception Handling in Java
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -31,17 +31,16 @@ Exception Handling
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://www.edureka.co/blog/wp-content/uploads/2018/11/Exception-flow-Java-Exception-Handling-Edureka.png'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              Exception Handling
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Exception Handling in Java is one of the effective means to handle the runtime errors so that the regular flow of the application can be preserved.
         </Typography>
             </CardContent>
           </Card>
@@ -51,16 +50,16 @@ Exception Handling
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://www.edureka.co/blog/wp-content/uploads/2018/11/Exception-flow-Java-Exception-Handling-Edureka.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            Exception Handling
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+            Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, that disrupts the normal flow of the program’s instructions. Exceptions can be caught and handled by the program. When an exception occurs within a method, it creates an object. This object is called the exception object. It contains information about the exception, such as the name and description of the exception and the state of the program when the exception occurred.
 
             
 
@@ -74,17 +73,28 @@ Exception Handling
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://www.edureka.co/blog/wp-content/uploads/2018/11/Exception-flow-Java-Exception-Handling-Edureka.png'
+           
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Exception Handling
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Major reasons why an exception Occurs:
+            <br></br><br></br>
+Invalid user input
+<br></br>
+Device failure
+<br></br>
+Loss of network connection
+<br></br>
+Physical limitations (out of disk memory)
+<br></br>
+Code errors
+<br></br>
+Opening an unavailable file
   
         </Typography>
             </CardContent>
@@ -101,7 +111,7 @@ Exception Handling
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=sQwTGB6gW-8&ab_channel=KeepOnCoding'
 controls={true}
 />
 

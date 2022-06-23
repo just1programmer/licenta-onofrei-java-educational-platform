@@ -1,15 +1,19 @@
 const questions = [
     {
       id: 1,
-      title: 'What Is a Comment?',
-      info:'Comments in Java are the statements that are not executed by the compiler and interpreter. It can be used to provide information or explanation about the variable, method, class or any statement. It can also be used to hide program code for a specific time.',
+      title: ' What do you understand by Collection Framework in Java?',
+      info: `The Java Collection framework provides an architecture to store and manage a group of objects. It permits the developers to access prepackaged data structures as well as algorithms to manipulate data. The collection framework includes the following:
+
+      Interfaces
+      Classes
+      Algorithm
+      All these classes and interfaces support various operations such as Searching, Sorting, Insertion, Manipulation, and Deletion which makes the data manipulation really easy and quick.`
     },
     {
       id: 2,
-      title: 'What kind of comments can we use in Java?',
-      info:' We can use : single line comments, multi-line comments and documentation comments',
-      image: 'https://static.javatpoint.com/images/java-types-of-comments.png'
-    
+      title: 'How the Collection objects are sorted in Java?',
+      info:' Sorting in Java Collections is implemented via Comparable and Comparator interfaces. When Collections.sort()  method is used the elements get sorted based on the natural order that is specified in the compareTo() method. On the other hand when Collections.sort(Comparator) method is used it sorts the objects based on compare() method of the Comparator interface. ',
+     
     },
     
       

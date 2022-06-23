@@ -31,17 +31,16 @@ Java Collections
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://i.ytimg.com/vi/KKN4zh7T3JE/hqdefault.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              Java Collections🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Any group of individual objects which are represented as a single unit is known as the collection of the objects. In Java, a separate framework named the “Collection Framework” has been defined in JDK 1.2 which holds all the collection classes and interface in it. 
         </Typography>
             </CardContent>
           </Card>
@@ -51,16 +50,16 @@ Java Collections
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://i.ytimg.com/vi/KKN4zh7T3JE/hqdefault.jpg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            What is a Framework?
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>A framework is a set of classes and interfaces which provide a ready-made architecture. In order to implement a new feature or a class, there is no need to define a framework. However, an optimal object-oriented design always includes a framework with a collection of classes such that all the classes perform the same kind of task. </b> 
 
             
 
@@ -74,18 +73,22 @@ Java Collections
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://i.ytimg.com/vi/KKN4zh7T3JE/hqdefault.jpg'
+             
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+            Advantages of the Collection Framework
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
-  
+            Consistent API: The API has a basic set of interfaces like Collection, Set, List, or Map, all the classes (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set of methods.
+
+            <br></br> <br></br>
+            Reduces programming effort: A programmer doesn’t have to worry about the design of the Collection but rather he can focus on its best use in his program. Therefore, the basic concept of Object-oriented programming (i.e.) abstraction has been successfully implemented.
+ 
+            <br></br> <br></br>
+            Increases program speed and quality: Increases performance by providing high-performance implementations of useful data structures and algorithms because in this case, the programmer need not think of the best implementation of a specific data structure. He can simply use the best implementation to drastically boost the performance of his algorithm/program.
         </Typography>
             </CardContent>
           </Card>
@@ -101,11 +104,11 @@ Java Collections
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=viTHc_4XfCA&ab_channel=VisualComputerScience'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Collections 🔽</Typography>
+<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Collections Framework 🔽</Typography>
 
 <div className='container'>
 <Typography variant='h3'>Q&A about Java Collections </Typography>

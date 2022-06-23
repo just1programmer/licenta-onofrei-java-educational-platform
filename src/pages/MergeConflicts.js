@@ -105,18 +105,6 @@ url='https://www.youtube.com/watch?v=xNVM5UxlFSA&ab_channel=Ihatetomatoes'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Merging Conflicts 🔽</Typography>
-
-<div className='container'>
-<Typography variant='h3'>Q&A about Merge Conflicts </Typography>
-<section className='info'>
-{Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
 </Paper>
 </Stack>
   )
