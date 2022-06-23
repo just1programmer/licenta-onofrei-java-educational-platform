@@ -32,17 +32,16 @@ Creating an API
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://d33wubrfki0l68.cloudfront.net/3df789948868c017bb3451b74856bb05e48cfad8/2af3b/assets/img/blog/2020-06-03-spring-boot-api/api.png'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              APIs🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
         </Typography>
             </CardContent>
           </Card>
@@ -52,16 +51,16 @@ Creating an API
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://d33wubrfki0l68.cloudfront.net/3df789948868c017bb3451b74856bb05e48cfad8/2af3b/assets/img/blog/2020-06-03-spring-boot-api/api.png'
+            height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            APIs
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.</b> 
 
             
 
@@ -75,17 +74,16 @@ Creating an API
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
+            image='https://d33wubrfki0l68.cloudfront.net/3df789948868c017bb3451b74856bb05e48cfad8/2af3b/assets/img/blog/2020-06-03-spring-boot-api/api.png'
             height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              APIs
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.
   
         </Typography>
             </CardContent>
@@ -97,27 +95,26 @@ Creating an API
        
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand what Creating an API is:</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand what a REST APIs are:</Typography>
 
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=cU94So54cr8&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=SLwpqD8n3d0&ab_channel=ProgrammingwithMosh'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Creating an API 🔽</Typography>
 
-<div className='container'>
-<Typography variant='h3'>Q&A about Creating an API </Typography>
-<section className='info'>
-{ Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
+<hr/>
+
+<ReactPlayer 
+width='100%'
+height='700px'
+url='https://www.youtube.com/watch?v=YVl6M5ztOu8&ab_channel=TheSoftwareAlpha'
+controls={true}
+/>
+
+
 </Paper>
 </Stack>
   )

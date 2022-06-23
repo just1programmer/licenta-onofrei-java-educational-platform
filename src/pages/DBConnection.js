@@ -23,7 +23,7 @@ export default function DBConnection() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Connecting to a Database
+Connecting to a Database - JDBC
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -32,17 +32,16 @@ Connecting to a Database
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://static.javatpoint.com/java/new/images/java-database-connectivity-steps.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               JDBC
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            JDBC (Java Database Connectivity) is the Java API that manages connecting to a database, issuing queries and commands, and handling result sets obtained from the database.
         </Typography>
             </CardContent>
           </Card>
@@ -52,16 +51,16 @@ Connecting to a Database
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://images.idgesg.net/images/article/2022/05/what-is-jdbc-fig1-100927559-large.jpg?auto=webp&quality=85,70'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+             Database Connection
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>As a developer, you can use JDBC to interact with a database from within a Java program. JDBC acts as a bridge from your code to the database</b> 
 
             
 
@@ -75,18 +74,23 @@ Connecting to a Database
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://static.javatpoint.com/java/new/images/java-database-connectivity-steps.jpg'
+          
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              JDBC Architecture
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
-  
+            The JDBC interface consists of two layers:
+
+<br></br><br></br>
+The JDBC API supports communication between the Java application and the JDBC manager.
+<br></br><br></br>
+The JDBC driver supports communication between the JDBC manager and the database driver.
+
+
         </Typography>
             </CardContent>
           </Card>
@@ -94,22 +98,97 @@ Connecting to a Database
        
           </Grid>
        
+          <Grid container spacing={2} p={2} my={10}>
+            <Grid item xs={12} sm={12} md={6} lg={4}>
+
+            <Card className='theCard' sx={{ border: 1 }}>
+            <CardMedia
+            component='img'
+            image='https://pc-solucion.es/wp-content/uploads/2018/04/que-es-jdbc.jpg'
+            />
+            <CardContent>
+
+              <Typography variant='h5' textAlign='center'>
+               JDBC Architecture
+              </Typography>
+              <Divider/>
+            <Typography py={2} variant="body2" color="initial" className='details'>
+            There are four JDBC driver types:<b>
+<br></br><br></br>
+JDBC-ODBC bridge driver: A thin Java layer that uses an ODBC driver under the hood.
+<br></br><br></br>
+Native API driver: Provides an interface from Java to the native database client.
+<br></br><br></br>
+Middleware driver: A universal interface (“middleware”) between Java and the RDBMS’s vendor-specific protocol.
+<br></br><br></br>
+Pure Java driver: A driver that implements the vendor-specific protocol directly in Java.
+<br></br><br></br>
+When you start thinking about architecture and performance, it will be beneficial to consider the type of driver you are using.
+</b>
+        </Typography>
+            </CardContent>
+          </Card>
+            </Grid>
+         
+            <Grid item xs={12} sm={12} md={6} lg={4}>
+          <Card className='theCard' sx={{ border: 1 }}>
+          <CardMedia
+            component='img'
+            image='https://pc-solucion.es/wp-content/uploads/2018/04/que-es-jdbc.jpg'
+            
+            />
+            <CardContent>
+            <Typography variant='h5' textAlign='center'> 
+             SQL
+              </Typography>
+              <Divider/>
+            <Typography  py={2} variant="body2" color="initial" className='details' >
+            SQL (Structured Query Language) is used to perform operations on the records stored in the database, such as updating records, inserting records, deleting records, creating and modifying database tables, views, etc. SQL is not a database system, but it is a query language.
+            
+            We use SQL in order to perform database queries with the help of the JDBC.
+        </Typography>
+            </CardContent>
+          </Card>
+
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={12} lg={4}>
+          <Card className='theCard'  sx={{ border: 1 }}>
+          <CardMedia
+            component='img'
+            image='https://pc-solucion.es/wp-content/uploads/2018/04/que-es-jdbc.jpg'
+          
+            />
+            <CardContent>
+            <Typography variant='h5' textAlign='center'>
+              executeQuery()
+              </Typography>
+              <Divider/>
+            <Typography py={3} variant="body2" color="initial"  className='details'>
+            The executeQuery() method of the Statement interface is used to execute queries of retrieving values from the database. This method returns the object of ResultSet that can be used to get all the records of a table. 
+The executeUpdate(sql query) method of the Statement interface is used to execute queries of updating/inserting.
+
+        </Typography>
+            </CardContent>
+          </Card>
+          </Grid>
        
+          </Grid>
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand what Connecting to a Database is:</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand how to connect to a Database using Java :</Typography>
 
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=cU94So54cr8&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=e8g9eNnFpHQ&ab_channel=WittCode'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Connecting to a Database 🔽</Typography>
+<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions in the interviews: 🔽</Typography>
 
 <div className='container'>
-<Typography variant='h3'>Q&A about Connecting to a Database </Typography>
+<Typography variant='h3'>Interview Q&A</Typography>
 <section className='info'>
 { Questions.map((question)=>{
   return(

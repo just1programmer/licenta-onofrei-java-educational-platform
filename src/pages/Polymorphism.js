@@ -32,17 +32,16 @@ export default function Polymorphism() {
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/java-polymorphism.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java Polymorphism🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Polymorphism is the ability of an object to take on different forms. In Java, polymorphism refers to the ability of a class to provide different implementations of a method, depending on the type of object that is passed to the method.
         </Typography>
             </CardContent>
           </Card>
@@ -52,8 +51,8 @@ export default function Polymorphism() {
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/java-polymorphism.jpg'
+            height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
@@ -61,7 +60,7 @@ export default function Polymorphism() {
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+            Polymorphism is a feature of the object-oriented programming language, Java, which implies that you can perform a single task in different ways. In the technical world, polymorphism in Java allows one to do multiple implementations by defining one interface. 
 
             
 
@@ -75,17 +74,21 @@ export default function Polymorphism() {
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
+            image='https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/java-polymorphism.jpg'
             height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+             Java Polymorphism 
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            You can perform Polymorphism in Java via two different methods:
+            <br/>
+            <br/>
+1.Method Overloading
+<br/>
+2.Method Overriding
   
         </Typography>
             </CardContent>
@@ -105,6 +108,31 @@ height='700px'
 url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
 controls={true}
 />
+
+<hr/>
+
+<ReactPlayer 
+width='100%'
+height='700px'
+url='https://www.youtube.com/watch?v=E-0MMeNi5Cw&ab_channel=BroCode'
+controls={true}
+/>
+
+
+
+<hr/>
+
+<ReactPlayer 
+width='100%'
+height='700px'
+url='https://www.youtube.com/watch?v=kArGE1-vRrw&ab_channel=BroCode'
+controls={true}
+/>
+
+
+
+
+
 
 <Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about  Java Polymorphism 🔽</Typography>
 
