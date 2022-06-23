@@ -32,17 +32,16 @@ Java ArrayList
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://miro.medium.com/max/617/1*mLltyVdwQP6g6QJYnDIhRA.jpeg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              ArrayList🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            ArrayList is a part of collection framework and is present in java.util package. It provides us with dynamic arrays in Java.
         </Typography>
             </CardContent>
           </Card>
@@ -52,16 +51,16 @@ Java ArrayList
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://miro.medium.com/max/617/1*mLltyVdwQP6g6QJYnDIhRA.jpeg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+             ArrayList
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>Though, it may be slower than standard arrays but can be helpful in programs where lots of manipulation in the array is needed. This class is found in java.util package. </b> 
 
             
 
@@ -75,17 +74,16 @@ Java ArrayList
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://miro.medium.com/max/617/1*mLltyVdwQP6g6QJYnDIhRA.jpeg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+             ArrayList
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Since ArrayList is a dynamic array and we do not have to specify the size while creating it, the size of the array automatically increases when we dynamically add and remove items. 
   
         </Typography>
             </CardContent>
@@ -102,7 +100,7 @@ Java ArrayList
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=1nRj4ALuw7A&ab_channel=BroCode'
 controls={true}
 />
 
