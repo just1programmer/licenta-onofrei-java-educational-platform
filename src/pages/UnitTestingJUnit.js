@@ -24,7 +24,7 @@ export default function UnitTestingJUnit() {
             <Card className='theCard'>
             <CardMedia
             component='img'
-            image='https://media3.giphy.com/media/fwbZnTftCXVocKzfxR/200.webp?cid=ecf05e475l50emwlnh7nk9g0uzmo42w0phb71w94d4wfmb6m&rid=200.webp&ct=g'
+            image='https://assets-global.website-files.com/5eb9845c0972c01cdaec8415/61b833d53613d17360092a7e_unit-testing.png'
             />
             <CardContent>
 
@@ -45,8 +45,8 @@ It not only improves the efficiency and effectiveness of the code, but it also m
           <Card className='theCard'>
           <CardMedia
             component='img'
-            image='https://media0.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif'
-            height='250'
+            image='https://assets-global.website-files.com/5eb9845c0972c01cdaec8415/61b833d53613d17360092a7e_unit-testing.png'
+           
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
@@ -68,18 +68,20 @@ Then the complete test suite executes to catch the regressions, either in the im
           <Card className='theCard' >
           <CardMedia
             component='img'
-            image='https://media0.giphy.com/media/h408T6Y5GfmXBKW62l/200.webp?cid=ecf05e47z8x89zcfkyelxl8voqwdx45id2w4y25qaufxfccf&rid=200.webp&ct=g'
-            height='250'
+            image='https://assets-global.website-files.com/5eb9845c0972c01cdaec8415/61b833d53613d17360092a7e_unit-testing.png'
+           
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Popularity❤️‍🔥 
+              Testing☕ 
               </Typography>
               <Divider/>
             <Typography variant="body2" color="initial"  className='details'>
-            <b>As of 2019, Java was one of the most popular programming languages in use according to GitHub</b>, particularly for client–server web applications, with a reported 9 million developers.
+            It's a good idea to keep the test classes separate from the main source code. So, they are developed, executed and maintained separately from the production code.
 
-            The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them.
+Also, it avoids any possibility of running test code in the production environment.
+
+We can follow the steps of the build tools such as Maven and Gradle that look for src/main/test directory for test implementations.
 
         </Typography>
             </CardContent>
@@ -92,7 +94,7 @@ Then the complete test suite executes to catch the regressions, either in the im
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=l9AzO1FMgM8&ab_channel=Fireship'
+url='https://www.youtube.com/watch?v=vZm0lHciFsQ&ab_channel=CodingwithJohn'
 controls={true}
 />
         
