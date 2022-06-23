@@ -32,7 +32,7 @@ export default function Interfaces() {
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/02/difference-between-class-and-interface-in-java.jpg'
             />
             <CardContent>
 
@@ -51,12 +51,12 @@ export default function Interfaces() {
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://javagoal.com/wp-content/uploads/2020/05/1.png'
+            height='200'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-             Static constants
+             Static variables
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
@@ -74,8 +74,8 @@ export default function Interfaces() {
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://www.journaldev.com/wp-content/uploads/2013/07/abstract-class-vs-interface.png'
+            height='300'
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>

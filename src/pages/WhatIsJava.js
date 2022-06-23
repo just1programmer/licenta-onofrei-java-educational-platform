@@ -21,7 +21,7 @@ export default function WhatIsJava() {
         <Grid container spacing={2} p={2} my={10}>
             <Grid item xs={12} sm={12} md={6} lg={4}>
 
-            <Card className='theCard' sx={{ border: 1 }}>
+            <Card className='theCard'>
             <CardMedia
             component='img'
             image='https://media3.giphy.com/media/fwbZnTftCXVocKzfxR/200.webp?cid=ecf05e475l50emwlnh7nk9g0uzmo42w0phb71w94d4wfmb6m&rid=200.webp&ct=g'

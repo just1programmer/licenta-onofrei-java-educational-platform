@@ -24,7 +24,7 @@ const questions = [
     {
         id: 4,
         title: 'Why String is immutable?',
-        info: `n most of the Java Interviews, you will face this question. Why do you think Java language designers kept string immutable?
+        info: `In most of the Java Interviews, you will face this question. Why do you think Java language designers kept string immutable?
 
         You can give the following reasons.
         
