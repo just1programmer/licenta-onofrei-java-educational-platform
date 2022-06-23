@@ -22,7 +22,7 @@ export default function Lists() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Java Lists
+Java List Interfae
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -31,17 +31,16 @@ Java Lists
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://camo.githubusercontent.com/b24914711d892af6d10c99624bb0fa576a0611ae17eb125380c517b2059063a4/68747470733a2f2f6e657861782e696e2f77702d636f6e74656e742f75706c6f6164732f323032302f31312f6a6176612d312e676966'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               List🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Java List is an ordered collection. Java List is an interface that extends Collection interface. Java List provides control over the position where you can insert an element. You can access elements by their index and also search elements in the list.
         </Typography>
             </CardContent>
           </Card>
@@ -51,16 +50,16 @@ Java Lists
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://camo.githubusercontent.com/b24914711d892af6d10c99624bb0fa576a0611ae17eb125380c517b2059063a4/68747470733a2f2f6e657861782e696e2f77702d636f6e74656e742f75706c6f6164732f323032302f31312f6a6176612d312e676966'
+        
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              List
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>Java List interface extends Collection interface. Collection interface externs Iterable interface. Some of the most used List implementation classes are ArrayList, LinkedList, Vector, Stack,</b> 
 
             
 
@@ -74,17 +73,22 @@ Java Lists
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://camo.githubusercontent.com/b24914711d892af6d10c99624bb0fa576a0611ae17eb125380c517b2059063a4/68747470733a2f2f6e657861782e696e2f77702d636f6e74656e742f75706c6f6164732f323032302f31312f6a6176612d312e676966'
+             
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              List
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Since List is an interface, it can be used only with a class that implements this interface. Now, let’s see how to perform a few frequently used operations on the List.  
+<br></br><br></br>
+Operation 1: Adding elements to List class using add() method
+<br></br><br></br>
+Operation 2: Updating elements in List class using set() method
+<br></br><br></br>
+Operation 3: Removing elements using remove() method
   
         </Typography>
             </CardContent>
@@ -101,22 +105,11 @@ Java Lists
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=d3QbptJRln4&ab_channel=JakobJenkov'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Lists 🔽</Typography>
 
-<div className='container'>
-<Typography variant='h3'>Q&A about Java Lists </Typography>
-<section className='info'>
-{Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
 </Paper>
 </Stack>
   )
