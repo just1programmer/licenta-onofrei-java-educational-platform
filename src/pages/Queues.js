@@ -23,7 +23,7 @@ export default function Queues() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Java Queues
+Java Queue Interface
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -37,12 +37,11 @@ Java Queues
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java Queue🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order.
         </Typography>
             </CardContent>
           </Card>
@@ -57,11 +56,11 @@ Java Queues
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              Java Queue
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.</b> 
 
             
 
@@ -84,8 +83,7 @@ Java Queues
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Being an interface the queue needs a concrete class for the declaration and the most common classes are the PriorityQueue and LinkedList in Java.
   
         </Typography>
             </CardContent>
@@ -97,12 +95,12 @@ Java Queues
        
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand Java Queues:</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand Java Queue:</Typography>
 
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=91CMnJeHJVc&ab_channel=AlexLee'
 controls={true}
 />
 
