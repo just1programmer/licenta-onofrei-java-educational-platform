@@ -31,17 +31,16 @@ Git Branching
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://www.atatus.com/blog/content/images/2021/06/git-branch-workflow-2.png'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              Git Branching🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Git branching allows developers to diverge from the production version of code to fix a bug or add a feature. Developers create branches to work with a copy of the code without modifying the existing version. 
         </Typography>
             </CardContent>
           </Card>
@@ -51,16 +50,16 @@ Git Branching
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://www.atatus.com/blog/content/images/2021/06/git-branch-workflow-2.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              Git branching
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>You create branches to isolate your code changes, which you test before merging to the main branch</b> 
 
             
 
@@ -74,8 +73,8 @@ Git Branching
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://www.atatus.com/blog/content/images/2021/06/git-branch-workflow-2.png'
+           
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>

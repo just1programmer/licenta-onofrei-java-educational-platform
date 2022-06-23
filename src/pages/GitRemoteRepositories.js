@@ -31,17 +31,16 @@ Git Remote Repositories
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://blog.axosoft.com/wp-content/uploads/2018/05/push-and-pull.png'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Git Remotes🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            In Git, the term remote is concerned with the remote repository. It is a shared repository that all team members use to exchange their changes.
         </Typography>
             </CardContent>
           </Card>
@@ -51,16 +50,16 @@ Git Remote Repositories
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://blog.axosoft.com/wp-content/uploads/2018/05/push-and-pull.png'
+          
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            Git Remotes
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>A remote repository is stored on a code hosting service like an internal server, GitHub, Subversion, and more. </b> 
 
             
 
@@ -74,18 +73,18 @@ Git Remote Repositories
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://blog.axosoft.com/wp-content/uploads/2018/05/push-and-pull.png'
+           
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+            Git Remotes
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
-  
+            In the case of a local repository, a remote typically does not provide a file tree of the project's current state; as an alternative, it only consists of the .git versioning data.
+
+The developers can perform many operations with the remote server. These operations can be a clone, fetch, push, pull, and more.
         </Typography>
             </CardContent>
           </Card>
@@ -96,27 +95,16 @@ Git Remote Repositories
        
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand what Git Remote Repositories are:</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand what Git Remotes are:</Typography>
 
 <ReactPlayer 
 width='100%'
-height='700px'
-url='https://www.youtube.com/watch?v=cU94So54cr8&ab_channel=AlexLee'
+height='750px'
+url='https://www.youtube.com/watch?v=5ctkqMqG6G4&ab_channel=CraftQuest'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Git Remote Repositories 🔽</Typography>
 
-<div className='container'>
-<Typography variant='h3'>Q&A about Git Remote Repositories </Typography>
-<section className='info'>
-{Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
 </Paper>
 </Stack>
   )

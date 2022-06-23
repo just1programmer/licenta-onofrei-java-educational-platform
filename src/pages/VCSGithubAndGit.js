@@ -7,7 +7,7 @@ import './pages_styling.css'
 import ReactPlayer from 'react-player';
 
 
-import data from './accordionQuestions/vcsQuestions'
+
 
 export default function VCSGithubAndGit() {
 
