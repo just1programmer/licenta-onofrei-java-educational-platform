@@ -36,12 +36,11 @@ Java Hash Tables and Hash Maps
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java Hashtable🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            The Hashtable class implements a hash table, which maps keys to values. Any non-null object can be used as a key or as a value. To successfully store and retrieve objects from a hashtable, the objects used as keys must implement the hashCode method and the equals method.  
         </Typography>
             </CardContent>
           </Card>
@@ -60,7 +59,7 @@ Java Hash Tables and Hash Maps
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>HashMap is a part of Java’s collection since Java 1.2. This class is found in java.util package. It provides the basic implementation of the Map interface of Java.</b> 
 
             
 
@@ -79,12 +78,11 @@ Java Hash Tables and Hash Maps
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              HashMap 
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            HashMap is similar to HashTable, but it is unsynchronized. It allows to store the null keys as well, but there should be only one null key object and there can be any number of null values.  This class makes no guarantees as to the order of the map. To use this class and its methods, you need to import java.util.HashMap package or its superclass.
   
         </Typography>
             </CardContent>
@@ -101,9 +99,18 @@ Java Hash Tables and Hash Maps
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=70qy6_gw1Hc&ab_channel=AlexLee'
 controls={true}
 />
+<hr/>
+
+<ReactPlayer 
+width='100%'
+height='700px'
+url='https://www.youtube.com/watch?v=z5tZ0Zb5rJQ'
+controls={true}
+/>
+
 
 <Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Hash Tables and Hash Maps  🔽</Typography>
 
