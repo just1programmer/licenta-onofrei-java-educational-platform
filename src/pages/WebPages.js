@@ -30,7 +30,7 @@ import MergeConflicts from './MergeConflicts';
 import Exceptions from './ExceptionHandling';
 import Collections from './JavaCollectionsOverview';
 import Lists from './Lists';
-import Sets from './Sets';
+import Set from './Set';
 import Queues from './Queues';
 import ArrayList from './ArrayList';
 import HashTableHashMap from './HashTableHashMap';

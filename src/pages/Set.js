@@ -23,7 +23,7 @@ export default function Sets() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Java Sets
+Java Set Interface
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -32,17 +32,16 @@ Java Sets
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://abhiandroid.com/java/wp-content/uploads/2016/03/Hierarchy-of-Set-Interface.png'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Java Set🤔
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            The set interface is present in java.util package and extends the Collection interface is an unordered collection of objects in which duplicate values cannot be stored. It is an interface that implements the mathematical set.
         </Typography>
             </CardContent>
           </Card>
@@ -52,16 +51,16 @@ Java Sets
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://abhiandroid.com/java/wp-content/uploads/2016/03/Hierarchy-of-Set-Interface.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              Set
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           <b>This interface contains the methods inherited from the Collection interface and adds a feature that restricts the insertion of the duplicate elements.</b> 
 
             
 
@@ -75,17 +74,26 @@ Java Sets
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://abhiandroid.com/java/wp-content/uploads/2016/03/Hierarchy-of-Set-Interface.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Set 
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Since Set is an interface, it can be used only with a class that implements this interface. HashSet is one of the widely used classes which implements the Set interface. Now, let’s see how to perform a few frequently used operations on the HashSet. We are going to perform the following operations as follows:
+<br></br><br></br>
+Adding elements
+<br></br><br></br>
+Accessing elements
+<br></br><br></br>
+Removing elements
+<br></br><br></br>
+Iterating elements
+<br></br><br></br>
+Iterating through Set
   
         </Typography>
             </CardContent>
@@ -97,7 +105,7 @@ Java Sets
        
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand Java Sets:</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand Java Set:</Typography>
 
 <ReactPlayer 
 width='100%'
