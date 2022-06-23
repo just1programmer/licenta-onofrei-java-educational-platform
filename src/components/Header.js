@@ -18,7 +18,7 @@ export default function Header() {
         <Typography variant='h3' textAlign='center'  id='brand'>
         <IconButton  color='inherit' disableRipple disableTouchRipple disableFocusRipple> <SchoolTwoToneIcon sx={{fontSize:'3em'}} /></IconButton>Java Educational Platform
     </Typography>
-        <Avatar src='https://randomuser.me/api/portraits/men/35.jpg' className='myAvatar' size='small'>
+        <Avatar src='https://randomuser.me/api/portraits/men/62.jpg' className='myAvatar' size='small'>
         </Avatar>
       </Toolbar>
       
