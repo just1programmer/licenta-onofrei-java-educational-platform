@@ -32,17 +32,16 @@ Pull and Merge Requests
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://www.simplilearn.com/ice9/free_resources_article_thumb/pull_request_vs_merge_request.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+               Pull Requests vs Merge requests
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
-
+            Essentially, these requests are nothing more than a short message to someone with a description of changes made to a branch. By sending a pull request or merge request, you’re asking the receiver of the request to review those changes prior to merging them into another branch.
         </Typography>
             </CardContent>
           </Card>
@@ -52,16 +51,16 @@ Pull and Merge Requests
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://www.simplilearn.com/ice9/free_resources_article_thumb/pull_request_vs_merge_request.jpg'
+             
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            Pull Requests vs Merge requests
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+            There’s often confusion between terms pull request vs. merge request. That confusion lies in the fact that a pull request and a merge request are actually one and the same—but they differ depending on which sites they’re used.
 
             
 
@@ -75,17 +74,23 @@ Pull and Merge Requests
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://www.simplilearn.com/ice9/free_resources_article_thumb/pull_request_vs_merge_request.jpg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+            Pull Requests vs Merge requests
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            There are three major benefits of using a pull request:
+
+            <br></br>    <br></br>
+            Communication between developers - The first is that you can easily summarize software features and fixes into identifiable containers, aka service providers like GitHub or Bitbucket. It also enables development teams to leave comments and view changes in one place.
+            <br></br>    <br></br>
+            Accessibility to merge tools
+            <br></br>   <br></br>
+            Clear history of changes - A major highlight of using a pull request is that the team will be able to see any changes between the main branch and the feature branch. Additionally, any discussions are recorded and stored in chronological order.
   
         </Typography>
             </CardContent>
@@ -102,22 +107,22 @@ Pull and Merge Requests
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=z8CYDyFqzp0&ab_channel=Simplilearn'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about  Pull and Merge Requests 🔽</Typography>
 
-<div className='container'>
-<Typography variant='h3'>Q&A about  Pull and Merge Requests </Typography>
-<section className='info'>
-{Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
+<hr/>
+
+<ReactPlayer 
+width='100%'
+height='700px'
+url='https://www.youtube.com/watch?v=dO9BtPDIHJ8&ab_channel=EnvatoTuts%2B
+'
+controls={true}
+/>
+
+
 </Paper>
 </Stack>
   )

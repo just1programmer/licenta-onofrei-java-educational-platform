@@ -22,7 +22,7 @@ export default function MergeConflicts() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Merging Conflicts
+Merge Conflicts
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -31,12 +31,12 @@ Merging Conflicts
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://i.ytimg.com/vi/Kdd3UnD501o/maxresdefault.jpg'
             />
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-               Java Conditionals🤔
+              Merge Conflicts
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
@@ -51,12 +51,12 @@ Merging Conflicts
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://i.ytimg.com/vi/Kdd3UnD501o/maxresdefault.jpg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+            Merge Conflicts
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
@@ -74,12 +74,12 @@ Merging Conflicts
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://i.ytimg.com/vi/Kdd3UnD501o/maxresdefault.jpg'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Merge Conflicts
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
@@ -101,7 +101,7 @@ Merging Conflicts
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=xNVM5UxlFSA&ab_channel=Ihatetomatoes'
 controls={true}
 />
 

@@ -78,12 +78,13 @@ Git Branching
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Git branching
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            There is nothing special about the main branch. It is the first branch made when you initialize a Git repository using the git init command.
+
+When you create a commit, Git identifies that snapshot of files with a unique SHA-1 hash. When you initially create a branch, Git creates a new pointer to the same commit the main branch is currently on. 
   
         </Typography>
             </CardContent>
@@ -100,22 +101,11 @@ Git Branching
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=cU94So54cr8&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=qY6IooRlNGI&ab_channel=Ihatetomatoes'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Git Branching 🔽</Typography>
 
-<div className='container'>
-<Typography variant='h3'>Q&A about Git Branching </Typography>
-<section className='info'>
-{Questions.map((question)=>{
-  return(
-    <SingleQuestion key={question.id} {...question}/>
-  )
-})}
-</section>
-</div>
 </Paper>
 </Stack>
   )

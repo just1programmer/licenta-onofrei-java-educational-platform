@@ -8,7 +8,6 @@ import {
 
 import WhatIsJava from './WhatIsJava'
 import VariablesAndComments from './VariablesAndComments';
-import Hello from './Hello';
 import Arrays from './Arrays';
 import Methods from './Methods';
 import Operators from './Operators';
@@ -27,7 +26,6 @@ import Vcs from './VCSGithubAndGit';
 import GitRemoteRepos from './GitRemoteRepositories';
 import GitBranching from './GitBranching';
 import PMR from './PullAndMergeRequests';
-import UpdatingLocalRepos from './UpdatingLocalRepos';
 import MergeConflicts from './MergeConflicts';
 import Exceptions from './ExceptionHandling';
 import Collections from './JavaCollectionsOverview';
@@ -64,7 +62,6 @@ const WebPages = () => {
                 <Route  exact path = "/git-remote-repos"  element= {<GitRemoteRepos/>} />
                 <Route  exact path = "/git-branching" element = {<GitBranching/>} />
                 <Route  exact path = "/pull-requests-merge-requests" element = {<PMR/>} />
-                <Route  exact path = "/updating-local-repos" element = {<UpdatingLocalRepos/>} />
                 <Route  exact path = "/merge-conflicts" element = {<MergeConflicts/>} />
                 <Route  exact path = "/exception-handling-in-java" element = {<Exceptions/>} />
                 <Route  exact path="/java-collections-overview" element={<Collections/>}/>

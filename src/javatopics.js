@@ -81,10 +81,6 @@ const theTopics=[{
     page:'/pull-requests-merge-requests',
 },
 {
-    title:'Updating local repository - pull,fetch,merge',
-    page:'/updating-local-repos',
-},
-{
     title:'Merge Conflicts',
     page:'/merge-conflicts',
 },
