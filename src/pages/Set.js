@@ -110,14 +110,14 @@ Iterating through Set
 <ReactPlayer 
 width='100%'
 height='700px'
-url='https://www.youtube.com/watch?v=Ft88V_rDO4I&ab_channel=AlexLee'
+url='https://www.youtube.com/watch?v=mI4eNh5iIpE&ab_channel=Smartherd'
 controls={true}
 />
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Sets 🔽</Typography>
+<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Set Interface 🔽</Typography>
 
 <div className='container'>
-<Typography variant='h3'>Q&A about Java Sets </Typography>
+<Typography variant='h3'>Q&A about Java Set </Typography>
 <section className='info'>
 {Questions.map((question)=>{
   return(

@@ -66,7 +66,7 @@ const WebPages = () => {
                 <Route  exact path = "/exception-handling-in-java" element = {<Exceptions/>} />
                 <Route  exact path="/java-collections-overview" element={<Collections/>}/>
                 <Route exact  path = "/list"  element= {<Lists/>} />
-                <Route exact path = "/set" element = {<Sets/>} />
+                <Route exact path = "/set" element = {<Set/>} />
                 <Route exact path = "/queue" element = {<Queues/>} />
                 <Route  exact path = "/array-list" element = {<ArrayList/>} />
                 <Route exact path = "/hash-table-hash-map" element = {<HashTableHashMap/>} />
