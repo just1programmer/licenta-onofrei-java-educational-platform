@@ -1,14 +1,15 @@
 const questions = [
     {
       id: 1,
-      title: 'What Is a Comment?',
-      info:'Comments in Java are the statements that are not executed by the compiler and interpreter. It can be used to provide information or explanation about the variable, method, class or any statement. It can also be used to hide program code for a specific time.',
+      title: 'What is the difference between HashMap and Hashtable in java ? ',
+      info:` The main difference between Hashtable and HashMap is that HashMap can contain one null key and any number of null values but Hashtable does not allow null values.
+       Hashtable is synchronized while HashMap is not synchronized.
+       HashMap is faster as compared to Hashtable because HashMap is not synchronized.`,
     },
     {
       id: 2,
-      title: 'What kind of comments can we use in Java?',
-      info:' We can use : single line comments, multi-line comments and documentation comments',
-      image: 'https://static.javatpoint.com/images/java-types-of-comments.png'
+      title: 'What is the difference between capacity and size of HashMap in java?',
+      info:'The capacity indicates the number of entries object a HashMap can store whereas size() denotes how many key-value pairs is currently present in the HashMap.',
     
     },
     

@@ -22,7 +22,7 @@ export default function HashTableHashMap() {
 
     
 <Typography variant='h2' id='title' sx={{textDecoration:'underline',textUnderlinePosition:'under'}}>
-Java Hash Tables and Hash Maps 
+Java Hashtables and HashMaps 
     </Typography> 
 
         <Grid container spacing={2} p={2} my={10}>
@@ -31,7 +31,7 @@ Java Hash Tables and Hash Maps
             <Card className='theCard' sx={{ border: 1 }}>
             <CardMedia
             component='img'
-            image='https://miro.medium.com/max/928/1*-XQpx_Kb4qqY3gwkozz4cA.png'
+            image='https://www.edureka.co/blog/wp-content/uploads/2019/09/HashMap-in-Java-JavaHashMap-vs-Hashtable-Edureka-300x244.png'
             />
             <CardContent>
 
@@ -50,12 +50,12 @@ Java Hash Tables and Hash Maps
           <Card className='theCard' sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://appdividend.com/wp-content/uploads/2019/07/Java-If-else-Statement-Conditional-Statement-in-Java-Tutorial.png'
-            height='300'
+            image='https://www.edureka.co/blog/wp-content/uploads/2019/09/HashMap-in-Java-JavaHashMap-vs-Hashtable-Edureka-300x244.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              HashMap
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
@@ -73,8 +73,8 @@ Java Hash Tables and Hash Maps
           <Card className='theCard'  sx={{ border: 1 }}>
           <CardMedia
             component='img'
-            image='https://miro.medium.com/max/1400/1*K9Zp-l72morK9SFpMj8Vrw.png'
-            height='200'
+            image='https://www.edureka.co/blog/wp-content/uploads/2019/09/HashMap-in-Java-JavaHashMap-vs-Hashtable-Edureka-300x244.png'
+            
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
@@ -94,7 +94,7 @@ Java Hash Tables and Hash Maps
        
 
 
-      <Typography variant='h5' textAlign='center' my={4}>🔽This is a video I strongly encourage you to watch , in order to better understand  Java Hash Tables and Hash Maps :</Typography>
+      <Typography variant='h5' textAlign='center' my={4}>🔽These are videos I strongly encourage you to watch , in order to better understand  Java Hashtables and HashMaps :</Typography>
 
 <ReactPlayer 
 width='100%'
@@ -112,10 +112,10 @@ controls={true}
 />
 
 
-<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Hash Tables and Hash Maps  🔽</Typography>
+<Typography variant='h5' textAlign='center' my={3}>🔽 Here are some frequently asked questions about Java Hashtables and HashMaps  🔽</Typography>
 
 <div className='container'>
-<Typography variant='h3'>Q&A about  Java Hash Tables and Hash Maps  </Typography>
+<Typography variant='h3'>Q&A about  Java Hashtables and HashMaps  </Typography>
 <section className='info'>
 {Questions.map((question)=>{
   return(

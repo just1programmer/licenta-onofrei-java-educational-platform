@@ -8,16 +8,16 @@ export default function UnitTestingJUnit() {
   return (
     <Stack spacing={1} sx={{padding:'5vw'}}>
 
-    
-    <Typography variant='h2' id='title'>
-      Java Introduction☕
-    </Typography>
+   
 
 <Paper elevation={4} sx={{minHeight:'60vh',maxWidth:'90vw',padding:'3vw'}}>
 
     
         
-
+ 
+<Typography variant='h2' id='title'>
+      Java Unit Testing☕
+    </Typography>
         <Grid container spacing={2} p={2} my={10}>
             <Grid item xs={12} sm={12} md={6} lg={4}>
 
@@ -29,12 +29,13 @@ export default function UnitTestingJUnit() {
             <CardContent>
 
               <Typography variant='h5' textAlign='center'>
-              Java ☕
+              Unit Testing
               </Typography>
               <Divider/>
             <Typography variant="body2" color="initial" className='details'>
-        <b>A high-level, class-based, object-oriented programming language </b>  that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers <b>'write once, run anywhere'</b>. 
+            Unit Testing is a crucial step in software design and implementation.
 
+It not only improves the efficiency and effectiveness of the code, but it also makes the code more robust and reduces the regressions in future development and maintenance.
         </Typography>
             </CardContent>
           </Card>
@@ -49,14 +50,14 @@ export default function UnitTestingJUnit() {
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              Compilation 😓
+              Testing😓
               </Typography>
               <Divider/>
             <Typography variant="body2" color="initial" className='details' >
-           <b>Compiled Java code can run on all platforms that support Java without the need to recompile. </b> 
+            Unit Testing is a methodology of testing source code for its fitment of use in production.
 
-            Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
-
+We start out writing unit tests by creating various test cases to verify the behaviors of an individual unit of source code.
+Then the complete test suite executes to catch the regressions, either in the implementation phase or while building packages for various stages of deployments such as staging and production.
         </Typography>
             </CardContent>
           </Card>
