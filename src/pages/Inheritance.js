@@ -40,7 +40,7 @@ export default function Inheritance() {
               </Typography>
               <Divider/>
             <Typography py={2} variant="body2" color="initial" className='details'>
-            Java uses boolean variables to evaluate conditions. The boolean values true and false are returned when an expression is compared or evaluated. 
+            Inheritance is an important pillar of OOP(Object-Oriented Programming). It is the mechanism in java by which one class is allowed to inherit the features(fields and methods) of another class. 
 
         </Typography>
             </CardContent>
@@ -56,11 +56,11 @@ export default function Inheritance() {
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'> 
-              If - else
+              Superclasses
               </Typography>
               <Divider/>
             <Typography  py={2} variant="body2" color="initial" className='details' >
-           <b>The Java if statement tests the condition. It executes the if block if condition is true.</b> 
+           Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).
 
             
 
@@ -79,12 +79,11 @@ export default function Inheritance() {
             />
             <CardContent>
             <Typography variant='h5' textAlign='center'>
-              Java if-else❤️‍🔥 
+              Subclasses
               </Typography>
               <Divider/>
             <Typography py={3} variant="body2" color="initial"  className='details'>
-            The Java if-else statement also tests the condition. It executes the if block if condition is true otherwise else block is executed.
-            The if-else-if ladder statement executes one condition from multiple statements.
+            Sub Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
   
         </Typography>
             </CardContent>
